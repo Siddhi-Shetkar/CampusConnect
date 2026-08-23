@@ -69,11 +69,3 @@ CampusConnect connects students across four major pillars:
 College is supposed to be more than just attending classes, writing exams, and going home. There are so many things worth exploring—learning algorithms, building cool projects, competing in hackathons, playing sports, and meeting new people. 
 
 The hardest part isn't finding something to do; **it's finding someone to do it with.** CampusConnect is an attempt to bridge that gap.
-
----
-
-## 📬 Contributing & Feedback
-
-Contributions, feature requests, and bug reports are always welcome! Feel free to fork the repository and submit a pull request.
-
-Find people. Find partners. Find your team. 🚀
