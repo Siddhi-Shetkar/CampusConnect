@@ -64,8 +64,10 @@ CampusConnect connects students across four major pillars:
 
 ---
 
-## 💡 Why I Built This
+## 💡 Why I'm Building This
 
 College is supposed to be more than just attending classes, writing exams, and going home. There are so many things worth exploring—learning algorithms, building cool projects, competing in hackathons, playing sports, and meeting new people. 
 
 The hardest part isn't finding something to do; **it's finding someone to do it with.** CampusConnect is an attempt to bridge that gap.
+
+CampusConnect is my attempt to make that easier by helping students find people with similar interests, goals, and availability.
