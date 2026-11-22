@@ -39,16 +39,6 @@ The project uses a full-stack web architecture.
 - **Database:** MongoDB
 - **Development Tools:** Git, GitHub, Antigravity
 
-## ⚙️ Getting Started
-
-Want to run CampusConnect locally?
-
-### Prerequisites
-
-- Node.js
-- Bun (if using the project's Bun setup)
-- MongoDB connection string
-
 ---
 
 ## 💡 Why CampusConnect?
