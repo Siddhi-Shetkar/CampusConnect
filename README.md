@@ -1,69 +1,83 @@
-# CampusConnect
+# CampusConnect 🎓
 
-**Find the right person to learn, build, compete, and play with.**
+### Find the right person to learn, build, compete, and play with.
 
-CampusConnect is a full-stack student partner discovery, real-time messaging, and push notification web app / PWA built with React, Tailwind CSS, React Router, Node.js, Express, Socket.IO, Web Push (VAPID), and MongoDB (Mongoose).
+Ever wanted a DSA partner but didn't know whom to ask? Looking for teammates for a hackathon? Or simply someone to play badminton with after college?
 
-## Core Features
+**CampusConnect makes finding your people on campus easier.**
 
-- **Zero Dummy Data**: Displays only real partner requests, users, connections, and messages stored in the database, with clean empty states when no listings exist yet.
-- **Authentication**: Email/password signup and login with `bcryptjs` password hashing and JWT sessions.
-- **Student Profiles**: Editable profiles with college, year of study, bio, skills, interests, preferred activities, availability, and skill level.
-- **Partner Discovery (`Find Your People`) & College Filtering**: Filter by **All Colleges**, **My College**, or any registered college, combined with category, activity, skill level, availability, and cross-field search (name, college, activity, or skills).
-- **Partner Requests & Connection Workflow**: Create, edit, mark as filled, close/reopen, and delete requests; send, accept, or decline connection requests.
-- **Real-Time Messaging (Socket.IO)**: Private 1-to-1 conversations unlocked exclusively between accepted connections, with real-time delivery, persistent message history, unread badges, and live sent/read receipts.
-- **In-App Notification Center**: Navbar notification bell backed by the database with unread counts, click-to-navigate links, and mark-as-read controls.
-- **Real Phone Push Notifications (PWA + Service Worker + Web Push)**: Background/closed-app push notifications on Android Chrome, Edge, Firefox, Desktop browsers, and installed iOS 16.4+ Home Screen PWAs for connection requests, acceptances, responses, and new messages.
+CampusConnect is a student networking platform that helps college students discover and connect with people who share similar interests, goals, and activities.
 
-## Environment Variables & Secrets Configuration
+Instead of scrolling through endless WhatsApp groups or messaging people individually, students can post what they're looking for and connect with others who are interested in the same thing.
 
-Copy `.env.example` to `.env` (or add these values in your deployment Secrets panel):
+---
 
-```env
-# MongoDB Atlas connection string
-MONGODB_URI="mongodb+srv://<username>:<password>@<cluster>.mongodb.net/campusconnect?retryWrites=true&w=majority"
+## ✨ What can you find on CampusConnect?
 
-# Strong random secret for signing JWT sessions
-JWT_SECRET="replace-with-a-strong-random-64-char-secret"
+- 💻 **DSA & Study Partners** – Find someone to solve problems, prepare for interviews, or study together.
+- 🚀 **Project Teammates** – Connect with students who want to build something together.
+- 🏆 **Hackathon Teams** – Find teammates with complementary skills and shared interests.
+- 🏸 **Sports Partners** – Looking for someone to play badminton, cricket, or football with? Find them here.
+- 🎯 **Shared Interests** – Connect over hobbies, activities, and even the occasional pani puri plan!
 
-# Persistent Web Push (VAPID) keys for phone notifications
-VAPID_PUBLIC_KEY="your-generated-vapid-public-key"
-VAPID_PRIVATE_KEY="your-generated-vapid-private-key"
-VAPID_SUBJECT="mailto:your-email@example.com"
-```
+## 🚀 Features
 
-### Generating Persistent VAPID Keys for Phone Push Notifications
+- **Student Profiles** – Create a profile and let others know your interests.
+- **Create Requests** – Post what you're looking for, whether it's a study partner, project teammate, or sports buddy.
+- **Discover & Explore** – Browse requests from other students.
+- **Search & Filter** – Find relevant opportunities based on your interests and preferences.
+- **Connection Requests** – Express interest and connect with other students.
+- **Messaging** – Chat with students once a connection is accepted.
+- **Notifications** – Stay informed about relevant activity and connection updates.
 
-Run this command once locally to generate your own VAPID public/private keypair:
+## 🛠️ Tech Stack
 
-```bash
-npx web-push generate-vapid-keys
-```
+The project uses a full-stack web architecture.
 
-Copy the generated `Public Key` into `VAPID_PUBLIC_KEY` and `Private Key` into `VAPID_PRIVATE_KEY` in your Secrets / `.env` file. Setting persistent VAPID keys ensures subscribed phones continue receiving push notifications across server restarts and deployments. (When omitted in dev/preview, the server generates an ephemeral in-memory keypair for the current runtime session.)
+- **Frontend:** React, TypeScript, CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Development Tools:** Git, GitHub, Antigravity
 
-### Testing Phone Push Notifications
+## ⚙️ Getting Started
 
-1. Open CampusConnect over HTTPS on your Android phone (Chrome / Edge / Firefox) or install it to the Home Screen on iOS 16.4+ Safari.
-2. Sign in and tap **Enable Notifications** on the Dashboard or inside the navbar **Notification Bell**.
-3. Grant browser notification permission and optionally tap **Send Test** to confirm delivery.
-4. Send a connection request, accept one, or exchange messages between two accounts—tapping the notification opens the relevant conversation or request directly.
+Want to run CampusConnect locally?
 
-## Database Models
+### Prerequisites
 
-- `server/models/User.ts`
-- `server/models/PartnerRequest.ts`
-- `server/models/ConnectionRequest.ts`
-- `server/models/Conversation.ts`
-- `server/models/Message.ts`
-- `server/models/Notification.ts`
-- `server/models/PushSubscription.ts`
+- Node.js
+- Bun (if using the project's Bun setup)
+- MongoDB connection string
 
-## Running Locally
+---
 
-```bash
-npm install
-npm run dev
-```
+## 💡 Why CampusConnect?
 
-Runs the full-stack Express + Socket.IO + Vite server on `http://localhost:3000`.
+College is full of people with different skills, interests, and ambitions. Sometimes, all it takes to start something meaningful is finding one person who's interested in doing it with you.
+
+CampusConnect aims to make those connections easier.
+
+Because the best collaborations, friendships, and ideas often start with a simple connection.
+
+---
+
+## 👩‍💻 About the Project
+
+CampusConnect is an independently developed project built to solve a simple but relatable problem in student life: finding the right people to do things with.
+
+It is being developed and improved through real student feedback, with the goal of making campus networking more accessible and useful.
+
+**Built with curiosity, code, and a little bit of campus chaos. ❤️**
+
+---
+
+## 🌐 Live Demo
+
+**[Visit CampusConnect](https://campusconnect-1824.ai.studio/)**
+
+<sub>Note: This is a demo deployment intended for testing and feedback purposes. Some features may be under development, and functionality may change as the project evolves.</sub>
+
+---
+
+### CampusConnect
+*Find your people. Build something together.*
