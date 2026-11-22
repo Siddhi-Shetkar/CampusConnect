@@ -1,4 +1,5 @@
 node_modules/
+<<<<<<< HEAD
 build/
 dist/
 coverage/
@@ -7,3 +8,9 @@ coverage/
 .env*
 !.env.example
 .data/
+=======
+.env
+dist/
+build/
+.DS_Store
+>>>>>>> origin/main
