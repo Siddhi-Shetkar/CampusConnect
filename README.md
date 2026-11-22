@@ -30,6 +30,18 @@ Instead of scrolling through endless WhatsApp groups or messaging people individ
 - **Messaging** – Chat with students once a connection is accepted.
 - **Notifications** – Stay informed about relevant activity and connection updates.
 
+## 🚀 Future Enhancements
+
+- **AI Request Assistant:** Improve partner requests with AI-generated titles, clearer descriptions and suggested skills or requirements.
+- **Find Your Tribe:** Interactive interest-based games that help students discover others with similar preferences.
+- **This or That:** Quick-choice games that match students based on shared interests and preferences.
+- **Two Truths and a Lie:** A fun icebreaker that encourages students to interact and get to know each other.
+- **Campus Bingo:** Find students who match different skills, hobbies, interests and campus experiences.
+- **Campus Quest:** A multiplayer 2D campus adventure where connected students navigate a virtual campus, overcome obstacles and find each other.
+- **Dark & Light Mode:** Customizable themes with Light, Dark and System Default options.
+- **Password Recovery:** Secure email-based password reset functionality.
+- **Enhanced Push Notifications:** Browser and mobile notifications for messages, connection requests and important activities.
+
 ## 🛠️ Tech Stack
 
 The project uses a full-stack web architecture.
