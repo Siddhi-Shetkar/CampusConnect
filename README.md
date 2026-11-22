@@ -30,30 +30,6 @@ Instead of scrolling through endless WhatsApp groups or messaging people individ
 - **Messaging** – Chat with students once a connection is accepted.
 - **Notifications** – Stay informed about relevant activity and connection updates.
 
-## ✨ Future Enhancements
-
-- **AI Request Assistant:** Turn rough ideas into well-structured partner requests with AI-generated titles, improved descriptions and suggested skills or requirements.
-
-- **All Students Directory:** Browse a directory of registered students on CampusConnect and discover people across your college.
-
-- **Connection Moments:** Share pictures publicly with newly connected students, showcasing project collaborations, hackathon experiences, sports activities and club events.
-
-- **Find Your Tribe:** Answer questions about technical skills, programming languages, project interests, sports and club activities to discover students with similar goals and find potential collaborators.
-
-- **This or That:** Make choices between technology and activity-related options such as React vs Angular, Web Development vs AI/ML, Hackathons vs Coding Contests or Cricket vs Badminton. Discover students with similar interests and collaborate.
-
-- **Two Truths and a Lie:** Share three statements about your technical skills, project experiences, hackathon participation or club activities. Other students guess the lie and discover potential teammates through the interaction.
-
-- **Campus Bingo:** Complete a bingo card with challenges such as finding someone who knows C++, has built a full-stack project, participated in a hackathon, plays badminton or is part of a technical club. Discover and connect with students who match each challenge.
-
-- **Campus Quest:** Play a multiplayer 2D campus adventure with an accepted connection. Navigate a virtual campus map, overcome obstacles, discover shortcuts and reach a common meeting point.
-
-- **Dark & Light Mode:** Switch between Light, Dark and System Default themes for a personalized browsing experience.
-
-- **Password Recovery:** Reset forgotten passwords securely through email-based verification.
-
-- **Enhanced Push Notifications:** Receive browser and mobile notifications for messages, connection requests and other important activities.
-
 ## 🛠️ Tech Stack
 
 The project uses a full-stack web architecture.
